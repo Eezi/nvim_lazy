@@ -7,4 +7,5 @@ return {
   { "mfussenegger/nvim-dap-python", enabled = false },
   { "linux-cultist/venv-selector.nvim", enabled = false },
   { "nvim-neotest/neotest", enabled = false },
+  { "rcarriga/nvim-notify", enabled = false },
 }

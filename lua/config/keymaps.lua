@@ -12,6 +12,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "<Space>w", vim.cmd.w)
 vim.opt.clipboard:append({ "unnamedplus" })
 vim.keymap.set("n", "<Space>fm", vim.lsp.buf.format)
+vim.keymap.set("n", "Y", "y$")
 
 -- Telescope
 vim.keymap.set("n", "<leader>fo", require("telescope.builtin").oldfiles, { desc = "[?] Find recently opened files" })
