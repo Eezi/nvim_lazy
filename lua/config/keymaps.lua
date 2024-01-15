@@ -49,3 +49,6 @@ end)
 vim.keymap.set("n", "<leader>6", function()
   ui.nav_file(6)
 end)
+
+-- Undotree
+vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
